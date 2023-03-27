@@ -1,0 +1,19 @@
++api-peliculas
+|_+ app
+  |_+ common
+    |_ __init__.py
+    |_ error_handling.py   # Utilidades para el manejo de errores
+  |_+ films
+    |_+ api_v1_0
+      |_ __init__.py
+      |_ resources.py   # Endpoints del API
+      |_ schemas.py     # Esquemas para serializar los modelos
+    |_ __init__.py
+    |_ models.py   # Modelos
+  |_ __init__.py   # Configuración de la aplicación
+  |_ db.py         # Configuración de la base de datos
+  |_ ext.py        # Instanciación de las extensiones
+|_+ config         # Directorio para la configuración
+  |_ __init__.py
+  |_ default.py    # Configuración por defecto
+|_ entrypoint.py  
